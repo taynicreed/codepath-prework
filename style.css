@@ -1,0 +1,93 @@
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #3d3e3e;
+  color: white; 
+  text-align: center;
+}
+
+h1 {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana, arial, sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  background: linear-gradient(to right, #FF0000, #FF8700, #FFD300, #32C038, #147DF5, #BE0AFF);
+}
+  button {
+  padding: 12px;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+.hidden {
+  display: none;
+}
+
+/* game buttons */
+#gameButtonArea > button {
+  width: 225px;
+  height: 225px;
+  margin: 2px;
+}
+#button1 {
+  background: #ffadad;
+}
+#button1:active, #button1.lit {
+  background: #ff0000;
+}
+
+#button2 {
+  background: #ffdaad;
+}
+#button2:active, #button2.lit {
+  background: #ff8700;
+}
+
+#button3 {
+  background: #fdffb6;
+}
+#button3:active, #button3.lit {
+  background: #ffd300; 
+}
+
+#button4 {
+  background: #caffbf;
+}
+#button4:active, #button4.lit {
+  background: #32C038; 
+}
+
+#button5 {
+  background: #9bf6ff;
+}
+#button5:active, #button5.lit {
+  background: #147df5;
+}
+
+#button6 {
+  background: #e4c1f9;
+}
+#button6:active, #button6.lit {
+  background: #be0aff;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
